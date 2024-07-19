@@ -1,7 +1,7 @@
 @echo off
 
 set "adb_path=C:\Users\example\AppData\Local\Android\Sdk\platform-tools"
-set "device_ip=192.168.1.6" change this to your phone ip address
+set "device_ip=192.168.1.6" 
 
 :loop
 "%adb_path%\adb.exe" devices > devices.txt
